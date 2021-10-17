@@ -9,17 +9,16 @@ const Item = ({ item }) => {
       <div>{item.strDrink}</div>
       <div>
         <img
-        
           onClick={handleClick}
           style={{
-            cursor:"pointer",
+            cursor: "pointer",
             height: "120px ",
             width: "120px ",
             borderRadius: 22,
           }}
           src={item.strDrinkThumb}
           alt={item.strDrink}
-        ></img>
+        />
       </div>
     </div>
   );
