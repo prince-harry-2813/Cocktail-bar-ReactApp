@@ -67,7 +67,7 @@ const Search = () => {
       {responseData.drinks &&
         responseData.drinks
           .slice(0, 5)
-          .map((item) => <Item key={item.idDrink} item={item}/>)}
+          .map((item) => <Item key={item.idDrink} item={item} />)}
     </>
   );
 };

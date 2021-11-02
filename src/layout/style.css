@@ -25,10 +25,8 @@
 #head {
     grid-area: head;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0 1rem;
     box-shadow: 0 2px 5px -1px rgb(50 50 93 / 25%),
     0 1px 3px -1px rgb(0 0 0 / 30%);
 }
